@@ -1,0 +1,39 @@
+# Environment
+.env
+.env.local
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Angular
+dist/
+tmp/
+.angular/
+out-tsc/
+
+# Build
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# Symlinks (tracked as symlinks, not as copies)
+# docker-compose.yml
+# .env.example
+# docs
